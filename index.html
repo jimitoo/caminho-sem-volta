@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Acordo em um lugar que não reconheço. Tudo está escuro, o ar é pesado e o silêncio é interrompido por sussurros distantes. Algo está observando... Eu sinto. Preciso me mover, mas para onde? A única certeza é que não estou sozinho. O medo percorre minha espinha, e cada passo pode ser o último. Não tenho escolha, é sobreviver ou sucumbir.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o Corredor Escuro</button>
+            <button class="btn-proximo" data-proximo="2">Entrar na pequena sala lateral</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O corredor à frente parece interminável, suas sombras dançam ao ritmo das luzes piscando. O silêncio é perturbador, mas pode haver uma saída no final. Você decide seguir em frente, cada passo ecoando pelo vazio, No meio do corredor, um som distante se aproxima, aumentando a sensação de urgência. Você precisa escolher rapidamente entre:</p>
+            <button class="btn-proximo" data-proximo="3">Seguir em frente até o fim do corredor</button>
+            <button class="btn-proximo" data-proximo="4">Parar e se esconder</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você empurra a porta entreaberta. O ambiente é apertado e cheira a mofo. Há papéis espalhados pelo chão e uma sensação de que algo ou alguém estava ali recentemente. O silêncio é opressivo, e você sente um frio na espinha. Agora, você precisa decidir rapidamente:</p>
+            <button class="btn-proximo" data-proximo="5">Examinar os papéis no chão para descobrir o que aconteceu</button>
+            <button class="btn-proximo" data-proximo="6">Procurar por uma saída alternativa, em busca de escapar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você empurra a porta pesada de metal e entra em uma sala ampla. As paredes estão cobertas de grafites e o ar é denso. No centro, há uma mesa com várias ferramentas e objetos estranhos. O rosnado do Vita Mimic se aproxima. Você percebe uma janela alta e uma chance de escapar</p>
+            <button class="btn-proximo" data-proximo="7"> Tentar escalar até a janela para sair da sala</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você tenta se esconder, mas o Vita Mimic detecta sua presença e se lança sobre você. Você é encurralado, agora sua morte e garantida</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você se agacha para examinar os papéis espalhados. Entre anotações e relatórios antigos, encontra uma mensagem que diz: “A criatura está mais próxima do que imaginamos.” Essa descoberta aumenta sua ansiedade, mas também acende sua determinação.</p>
+            <button class="btn-proximo" data-proximo="7"> Seguir o que aprendeu e procurar uma sala de controle próxima para encontrar informações sobre como lidar com o Vita Mimic</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide que ficar na sala não é seguro e começa a procurar uma saída. No canto, avista uma janela alta, parcialmente coberta por tábuas de madeira. Com um esforço considerável, você remove as tábuas e consegue abrir a janela, revelando um pequeno telhado externo.</p>
+            <button class="btn-proximo" data-proximo="8">Sair pela janela e descer para o telhado em busca de uma forma de escapar do Vita Mimic</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você entra na sala de controle, onde o cheiro de eletricidade e metal é forte. Monitores antigos piscam com imagens distorcidas, e alarmes ecoam, criando uma sensação de urgência. À sua frente, há um computador que pode fornecer informações vitais sobre o Vita Mimic.</p>
+            <button class="btn-proximo" data-proximo="9">Usar o computador para acessar os dados sobre as fraquezas do Vita Mimic</button>
+            <button class="btn-proximo" data-proximo="10">Procurar na sala documentos que possam conter estratégias de sobrevivência</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você se esgueira pela janela e desce para o telhado, onde a adrenalina corre em suas veias. Observando ao redor, percebe uma escada de emergência que leva diretamente a um nível inferior. Sem pensar duas vezes, você desce rapidamente. Ao chegar ao chão, encontra uma porta que leva à</p>
+            <button class="btn-proximo" data-proximo="7">Sala de controle</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Com as informações sobre as fraquezas do Vita Mimic frescas na mente, você se prepara para agir. A sala de controle está iluminada por luzes fracas, e você avista uma lanterna e um alto-falante.</p>
+            <button class="btn-proximo" data-proximo="11">Usar a lanterna para criar uma luz intensa e fazer barulho com o alto-falante, tentando desorientar o Vita Mimic enquanto escapa pela porta</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você começa a revistar a sala de controle em busca de documentos que possam ajudar. Após alguns minutos, encontra uma pasta cheia de anotações sobre o Vita Mimic. As informações detalham armadilhas e táticas de evasão.</p>
+            <button class="btn-proximo" data-proximo="12"> Usar as informações encontradas para implementar uma estratégia de proteção contra o Vita Mimic, criando um plano para desorientá-lo enquanto escapa.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você usa a lanterna e o alto-falante para criar uma distração, desorientando o Vita Mimic. Com coragem, escapa pela porta, deixando a sala de controle para trás. O alívio permeia seu corpo enquanto você avança, determinada a enfrentar novos desafios. Sua luta pela sobrevivência continua, mas, por agora, você conquistou uma vitória crucial. O eco de sua coragem ressoa, e você sabe que está um passo mais perto de desvendar os mistérios que o cercam.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Com as informações que você encontrou, decide usar uma lanterna e um alto-falante para criar uma distração. Você prepara a lanterna para gerar uma luz intensa e conecta o alto-falante a uma fonte de som estridente. Assim que tudo está pronto, você se posiciona perto da porta, pronto para agir.</p>
+            <button class="btn-proximo" data-proximo="11">>Usar a lanterna para criar uma luz intensa e fazer barulho com o alto-falante, tentando desorientar o Vita Mimic enquanto escapa pela porta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
